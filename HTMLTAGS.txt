@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body style="background-color:sandybrown">
+    <header>
+        <center><img src="/DSC00595.jpg" height="20%" width="20%" ></center>
+        </header>
+        <section style="border:2px solid red;margin-top:-1px;float:left;box-sizing:content-box">
+        
+            <h2>Registration Page</h2>
+            <form id="Registration">
+                Username:<input type="text" id="uname"><br /><br />
+                Password:<input type="password" id="pwd"><br /><br />
+                Confirm Password<input type="password" id="pwd"><br /><br />
+                <input type="submit" value="Register"><br /><br />
+            </form>
+            <textarea rows="4" cols="20" name="textarea" form="Registration">Enter Comments here</textarea>
+            </section>
+        <section style="float:right; margin-top:10px; margin-right: 120px; padding:1px;border:2px solid red">
+            <h2> Login Page</h2>
+            <form id="Login">
+                Username:<input type="text" id="uname"><br /><br />
+                Password:<input type="password" id="pwd"><br /><br />
+                <input type="submit" value="Login"><br /><br /><br /><br /><br /><br /><br /><br />
+            </form>
+        </section>
+    <footer style="margin-top:320px;text-align:right">
+        <p>Posted By: Charu Bansal</p>
+        <p> Contact Information: <a href="mailto:xyz@gmail.com">xyz@gmail.com</a></p>
+        </footer>
+</body>
+</html>
